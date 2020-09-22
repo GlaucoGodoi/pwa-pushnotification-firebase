@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "xat-up": {
+      "hosting": {
+        "client": [
+          "xat-up"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "xat-up"
+  }
+}
