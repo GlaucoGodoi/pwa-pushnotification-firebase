@@ -1,0 +1,42 @@
+.page-holder{
+    width: min(100vw, 600px);
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 auto 0 auto;
+    padding-top: 10px;
+    background-color: skyblue;
+}
+
+.header-holder{
+    margin-top: 8px;
+    height: 1rem;
+    width: 100%;
+    background-color: orange;
+    font-weight: 400;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+    img{
+           height: 50px;
+           margin:  0;
+    }
+
+    span{
+        color: white;
+        font-size: 1.3rem;
+    }
+}
+
+.login-holder{
+    padding-top: 15px;;
+    display: flex;
+    justify-content: center;
+
+    &__before-auth{
+        button{
+            width: 200px;
+        }
+    }
+}
